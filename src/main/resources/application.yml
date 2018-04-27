@@ -1,0 +1,19 @@
+spring:
+  datasource:
+     url: jdbc:jdbcdslog:mysql://127.0.0.1:3306/test_db?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false;targetDriver=com.mysql.jdbc.Driver
+     username: root
+     password: root
+     driver-class-name: org.jdbcdslog.DriverLoggingProxy
+
+  redis:
+    database: 0
+    host: 127.0.0.1
+#    password:
+    port: 6379
+
+
+
+pagehelper:
+  autoDialect: true
+  closeConn: true
+
